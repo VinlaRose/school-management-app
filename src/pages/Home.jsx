@@ -60,7 +60,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="footer">
-  <p> <a href="https://your-link-here.com">Github</a> </p>
+  <p> <a href="https://github.com/VinlaRose/school-management-app">Github</a> </p>
 </div>
     </div>
   );
