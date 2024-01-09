@@ -1,6 +1,6 @@
 export const fetchStudentData = () => async (dispatch) => {
     try {
-      const response = await fetch('https://school-management.vinlarose.repl.co/students');
+      const response = await fetch('https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/students');
   
       if (!response.ok) {
         throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
@@ -21,7 +21,7 @@ export const fetchStudentData = () => async (dispatch) => {
     console.log(studentData)
     try {
       const response = await fetch(
-        'https://school-management.vinlarose.repl.co/students',
+        'https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/students',
         {
           method: "POST",
           headers: {
@@ -50,7 +50,7 @@ export const fetchStudentData = () => async (dispatch) => {
   
   export const deleteStudent =  (studentId) => async (dispatch) => {
     try {
-      const response = await fetch(`https://school-management.vinlarose.repl.co/students/${studentId}`, {
+      const response = await fetch(`https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/students/${studentId}`, {
         method: 'DELETE',
       });
   
@@ -73,7 +73,7 @@ export const fetchStudentData = () => async (dispatch) => {
   
   export const fetchTeachersData = () => async (dispatch) => {
     try {
-      const response = await fetch('https://school-management.vinlarose.repl.co/teachers'); 
+      const response = await fetch('https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/teachers'); 
   
       if (!response.ok) {
         throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
@@ -93,7 +93,7 @@ export const fetchStudentData = () => async (dispatch) => {
     console.log(teacherData)
     try {
       const response = await fetch(
-        'https://school-management.vinlarose.repl.co/teachers',
+        'https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/teachers',
         {
           method: "POST",
           headers: {
@@ -121,7 +121,7 @@ export const fetchStudentData = () => async (dispatch) => {
   };
   export const deleteTeacher =  (teacherId) => async (dispatch) => {
     try {
-      const response = await fetch(`https://school-management.vinlarose.repl.co/teachers/${teacherId}`, {
+      const response = await fetch(`https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/teachers/${teacherId}`, {
         method: 'DELETE',
       });
   
