@@ -8,7 +8,7 @@ export const IndividualStudent = () => {
     const getStudentDataById = async (studentId) => {
         console.log(studentId)
         try {
-            const response = await fetch(`https://school-management.vinlarose.repl.co/students/${studentId}`);
+            const response = await fetch(`https://5a1ece93-aa90-49b4-a19b-b3af704a6f63-00-2jejhrwamybei.riker.replit.dev/students/${studentId}`);
             console.log(response)
 
             if (!response.ok) {
